@@ -41,7 +41,7 @@
 		["Conversión electromecánica de la energía", "EIE346",  4, "EIE", ["EIE318", "EIE326"]],
 		["Circuitos electrónicos", "EIE374",  4, "EIE", ["EIE280"]],
 		["Ingeniería económica y formulación de proyectos", "EIE400",  4, "EIE", ["EIE275", "EIE274", "EIE267", "EIE280", "EIE211"]],
-		["Formación fundamental 2, "FOFU",  2, "FOFU"],
+		["Formación fundamental 2", "FOFU",  2, "FOFU"],
     ["Inglés 2", "ING9002",  2, "ING", ["ING9001"]
 	],
 	"s7": [
@@ -58,7 +58,7 @@
 		["Laboratorio eléctrico", "EIE509",  4, "EIE", ["EIE432"]],
 		["Gestión y administración", "EII509",  4, "ICM", ["EIE400", "EIE346", "EIE374", "EIE313"]],
 		["Formación fundamental 3", "FOFU",  2, "FOFU"],
-    ["Inglés 4", "ING9004",  2, "ING", ["ING9003]
+    ["Inglés 4", "ING9004",  2, "ING", ["ING9003"]
 	],
 	"s9": [
 		["Legislación, normativa social, laboral y ambiental", "DER1170",  4, "ICM", ["EIE400", "EIE346", "EIE374", "EIE313", "ING9002"]],
