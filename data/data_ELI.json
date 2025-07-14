@@ -17,7 +17,7 @@
 		["Tecno-mecánica de materiales", "EIE253",  3, "EIE", ["QUI1140"]],
 		["Física general: ondas y termodinámica", "FIS1141",  3, "FIS", ["FIS1001"]],
 		["Cálculos en varias variables", "MAT1003", 4, "MAT", ["MAT1002"]],
-		["Ecuaciones diferenciales", "MAT1005",  4, "MAT",["MAT1004],
+		["Ecuaciones diferenciales", "MAT1005",  4, "MAT",["MAT1004"],
 		["Ética cristiana", "EIR020",  2, "FOFU"]
 	],
 	"s4": [
@@ -25,7 +25,7 @@
 		["Electromagnetismo", "EIE267",  4, "EIE", ["MAT1003"]],
 		["Laboratorio de mediciones", "EIE274",  3, "EIE", ["MAT1005"]],
 		["Señales y sistemas", "EIE275",  4, "EIE", ["MAT1003"]],
-		["Teoría de circuitos", "EIE280",  4, "EIE", ["MAT1005],
+		["Teoría de circuitos", "EIE280",  4, "EIE", ["MAT1005"],
 		["Formación fundamental 1", "FOFU",  2, "FOFU"]
 	],
 	"s5": [
