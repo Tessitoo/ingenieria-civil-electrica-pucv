@@ -56,7 +56,7 @@
     ["Accionamientos de máquinas", "EIE502", 4, "EIE", ["EIE430"]],
     ["Protecciones de sistemas eléctricos", "EIE504", 4, "EIE", ["EIE450"]],
     ["Laboratorio eléctrico", "EIE509", 4, "EIE", ["EIE432"]],
-    ["Gestión y administración", "EII509", 4, "ICM", ["EIE400", "EIE346", "EIE374", "EIE313"]],
+    ["Gestión y administración", "EII509", 4, "EII", ["EIE400", "EIE346", "EIE374", "EIE313"]],
     ["Formación fundamental 3", "FOFU3", 2, "FOFU"],
     ["Inglés 4", "ING9004", 2, "ING", ["ING9003"]]
   ],
