@@ -24,26 +24,6 @@ if (d3.select(".canvas")._groups[0][0]) {
 	A medida que vas aprobando ramos, se van liberando los que tienen prerrequisitos.
 	Haz click en cualquier lado para comenzar.`
 
-}	else if (d3.select(".priori-canvas")._groups[0][0]) {
-	
-	scaleX = 0.67;
-	scaleY = 1;
-	canvas = d3.select(".priori-canvas");
-	tipoRamo = SelectableRamo;
-	welcomeTitle = `¡Bienvenido a la calculadora de prioridad `
-	welcomeDesc = `¡Selecciona los ramos por semestre e ingresa tus notas para
-	 calcular tu prioridad! A medida que avances de semestre, los ramos aprobados se
-	 tacharán automaticamente. Si has cursado un ramo que no esta en la malla,
-	 crealo en la tabla de abajo.`;
-
-} else if (d3.select(".custom-canvas")._groups[0][0]) {
-	scaleX = 0.67;
-	scaleY = 1;
-	canvas = d3.select(".custom-canvas");
-	tipoRamo = SelectableRamo;
-	welcomeTitle = `¡Bienvenido a la generadora de mallas!`
-	welcomeDesc = `¡Selecciona los ramos por semestre y genera una malla a tu gusto!
-	Si quieres un ramo que no esta en la malla,crealo en la tabla de abajo.`;
 }
 
 var height = 730 * scaleX,
@@ -54,22 +34,9 @@ canvas = canvas.append("svg")
 		.attr('height', height);
 
 var carreras = {
-	'ARQ': 'Arquitectura',
-	'INF': 'Informática',
-    'ICI': 'Industrial',
-	'ELO': 'Electrónica',
-	'TEL': 'Telemática',
-	'ICOM': 'Comercial',
-	'CIV': 'Civil',
-	'MAT': 'Matemática',
-	'FIS': 'Licenciatura en Física',
-	'MEC': 'Mecánica',
-	'ICQ': 'Química',
+	
 	'ELI': 'Eléctrica',
-    'CONSTRU': 'Construcción',
-	'IDP': 'Diseño de Productos',
-    'MET': 'Metalúrgica',
-    'ICA': 'Ambiental'
+    
 }
 
 /* ---------- axis ---------- */
