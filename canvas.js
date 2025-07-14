@@ -6,7 +6,7 @@ var scaleX, scaleY, canvas, tipoRamo;
 var welcomeTitle, welcomeDesc;
 
 // verificamos que malla busca
-var current_malla = 'ELI';
+var current_malla = 'INF';
 if (window.location.search) {
 	var params = new URLSearchParams(window.location.search);
 	if (params.has('m'))
@@ -54,7 +54,22 @@ canvas = canvas.append("svg")
 		.attr('height', height);
 
 var carreras = {
-	'ELI': 'Eléctrica'
+	'ARQ': 'Arquitectura',
+	'INF': 'Informática',
+    'ICI': 'Industrial',
+	'ELO': 'Electrónica',
+	'TEL': 'Telemática',
+	'ICOM': 'Comercial',
+	'CIV': 'Civil',
+	'MAT': 'Matemática',
+	'FIS': 'Licenciatura en Física',
+	'MEC': 'Mecánica',
+	'ICQ': 'Química',
+	'ELI': 'Eléctrica',
+    'CONSTRU': 'Construcción',
+	'IDP': 'Diseño de Productos',
+    'MET': 'Metalúrgica',
+    'ICA': 'Ambiental'
 }
 
 /* ---------- axis ---------- */
