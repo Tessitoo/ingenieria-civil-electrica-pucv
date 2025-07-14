@@ -33,7 +33,7 @@
     ["Control automático", "EIE315", 4, "EIE", ["EIE275"]],
     ["Campos y ondas electromagnéticas", "EIE318", 4, "EIE", ["EIE267"]],
     ["Teoría de circuitos 2", "EIE326", 4, "EIE", ["EIE274"]],
-    ["Termofluido", "ICM347", 3, "ICM", ["EIE253"]],
+    ["Termofluidos", "ICM347", 3, "ICM", ["EIE253"]],
     ["Inglés 1", "ING9001", 2, "ING"]
   ],
   "s6": [
