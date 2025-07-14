@@ -26,7 +26,7 @@
     ["Laboratorio de mediciones", "EIE274", 3, "EIE", ["MAT1005"]],
     ["Señales y sistemas", "EIE275", 4, "EIE", ["MAT1003"]],
     ["Teoría de circuitos", "EIE280", 4, "EIE", ["MAT1005"]],
-    ["Formación fundamental 1", "FOFU", 2, "FOFU"]
+    ["Formación fundamental 1", "FOFU1", 2, "FOFU"]
   ],
   "s5": [
     ["Programación numérica", "EIE200", 3, "EIE", ["EIE100"]],
@@ -41,7 +41,7 @@
     ["Conversión electromecánica de la energía", "EIE346", 4, "EIE", ["EIE318", "EIE326"]],
     ["Circuitos electrónicos", "EIE374", 4, "EIE", ["EIE280"]],
     ["Ingeniería económica y formulación de proyectos", "EIE400", 4, "EIE", ["EIE275", "EIE274", "EIE267", "EIE280", "EIE211"]],
-    ["Formación fundamental 2", "FOFU", 2, "FOFU"],
+    ["Formación fundamental 2", "FOFU2", 2, "FOFU"],
     ["Inglés 2", "ING9002", 2, "ING", ["ING9001"]]
   ],
   "s7": [
@@ -57,21 +57,21 @@
     ["Protecciones de sistemas eléctricos", "EIE504", 4, "EIE", ["EIE450"]],
     ["Laboratorio eléctrico", "EIE509", 4, "EIE", ["EIE432"]],
     ["Gestión y administración", "EII509", 4, "ICM", ["EIE400", "EIE346", "EIE374", "EIE313"]],
-    ["Formación fundamental 3", "FOFU", 2, "FOFU"],
+    ["Formación fundamental 3", "FOFU3", 2, "FOFU"],
     ["Inglés 4", "ING9004", 2, "ING", ["ING9003"]]
   ],
   "s9": [
     ["Legislación, normativa social, laboral y ambiental", "DER1170", 4, "ICM", ["EIE400", "EIE346", "EIE374", "EIE313", "ING9002"]],
     ["Distribución eléctrica", "EIE518", 4, "EIE", ["EIE450"]],
     ["Mercado eléctrico", "EIE524", 4, "EIE", ["EIE450"]],
-    ["Optativo", "OPT", 2, "EIE"],
-    ["Optativo", "OPT", 2, "EIE"]
+    ["Optativo", "OPT1", 2, "EIE"],
+    ["Optativo", "OPT2", 2, "EIE"]
   ],
   "s10": [
     ["Producción y almacenamiento", "EIE529", 4, "EIE", ["EIE509"]],
     ["Seminario de proyectos", "EIE630", 8, "EIE", ["EIE504", "EIE509", "EIE502", "EII509", "ING9004"]],
-    ["Optativo", "OPT", 2, "EIE"],
-    ["Optativo", "OPT", 2, "EIE"]
+    ["Optativo", "OPT3", 2, "EIE"],
+    ["Optativo", "OPT4", 2, "EIE"]
   ],
   "s11": [
     ["Proyecto de titulación", "EIE636", 16, "EIE", ["EIE630"]]
