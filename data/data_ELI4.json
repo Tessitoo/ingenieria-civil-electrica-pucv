@@ -1,0 +1,61 @@
+{
+  "s1": [
+    ["Fundamentos de matemáticas para ingeniería", "MAT1001", 6, "MAT"],
+    ["Introducción a la ingeniería eléctrica y electrónica", "EIE142", 3, "EIE"],
+    ["Programación", "EIE100", 4, "EIE"],
+    ["Introducción a la Física", "FIS1121", 5, "FIS"],
+    ["Antropología cristiana", "EIR010", 2, "FOFU"]
+  ],
+  "s2": [
+    ["Desarrollo integral y comunicación para ingeniería", "FIN100", 3, "FIN"]
+    ["Física para ingenierìa", "FIS1002", 5, "FIS", ["MAT1001"]],
+    ["Cálculo diferencial e integral", "MAT1002", 6, "MAT", ["MAT1001"]],
+    ["Álgebra lineal", "MAT1004", 4, "MAT", ["MAT1001"]],
+    ["Formación fundamental 1", "FOFU1", 2, "FOFU"]    
+  ],
+  "s3": [
+    ["Ecuaciones diferenciales", "MAT1005", 4, "MAT", ["MAT1004"]],
+    ["Cálculos en varias variables", "MAT1003", 4, "MAT", ["MAT1002"]],
+    ["Estadística y probabilidades para ingeniería", "EIE211", 3, "MAT", ["MAT1002"]],
+    ["Métodos de optimización", "EIE313", 4, "EIE", ["EIE10000"]],
+    ["Inglés 1", "ING9001", 2, "ING"],
+    ["Ética cristiana", "EIR020", 2, "FOFU"]
+  ],
+  "s4": [
+    ["Señales y sistemas", "EIE275", 4, "EIE", ["MAT1003"]],
+    ["Laboratorio de mediciones", "EIE274", 3, "EIE", ["MAT1005"]],
+    ["Electromagnetismo", "EIE267", 4, "EIE", ["MAT1003"]],
+    ["Teoría de circuitos 1", "EIE280", 4, "EIE", ["MAT1005"]],
+    ["Inglés 2", "ING9002", 2, "ING", ["ING9001"]],
+    ["Formación fundamental 2", "FOFU2", 2, "FOFU"]
+  ],
+  "s5": [
+    ["Control automático", "EIE315", 4, "EIE", ["EIE275"]],
+    ["Circuitos electrónicos", "EIE374", 4, "EIE", ["EIE280"]],
+    ["Ingeniería económica y formulación de proyectos", "EIE400", 4, "EIE", ["EIE275", "EIE274", "EIE267", "EIE280", "EIE211"]],
+    ["Teoría de circuitos 2", "EIE326", 4, "EIE", ["EIE274", "EIE280"]],
+    ["Inglés 3", "ING9003", 2, "ING", ["ING9002"]],
+    ["Formación fundamental 3", "FOFU3", 2, "FOFU"]
+  ],
+  "s6": [
+    ["Gestión de Proyectos Electrícos y Electrónicos", "EIE622", 3, "EIE", ["EIE400"]],
+    ["Automatización industrial", "EIE317", 4, "EIE", ["EIE315"]],
+    ["Conversión electromecánica de la energía", "EIE346", 4, "EIE", ["EIE267", "EIE326"]],
+    ["Electrónica de potencia", "EIE430", 4, "EIE", ["EIE374"]],
+    ["Proyecto de iluminación", "EIE613", 3, "EIE", ["EIE400"]],
+    ["Inglés 4", "ING9004", 2, "ING", ["ING9003"]]
+  ],
+  "s7": [
+    ["Proyecto de Energías Renovables y Eficiencia Energética", "EIE615", 4, "EIE", ["EIE622"]],
+    ["Sistemas eléctricos de potencia", "EIE450", 4, "EIE", ["EIE346"]],
+    ["Máquinas eléctricas", "EIE432", 4, "EIE", ["EIE346"]],
+    ["Accionamientos de máquinas", "EIE502", 4, "EIE", ["EIE430"]],
+    ["Laboratorio eléctrico", "EIE509", 4, "EIE", ["EIE432"]]
+  ],
+  "s8": [
+    ["Distribución eléctrica", "EIE518", 4, "EIE", ["EIE450"]],
+    ["Protecciones de sistemas eléctricos", "EIE504", 4, "EIE", ["EIE450"]],
+    ["Proyectos de Media y Baja tensión", "EIE617", 4, "EIE", ["EIE622"]],
+    ["Proyecto de titulación", "EIE621", 8, "EIE", ["EIE615", "EIE450", "EIE432", "EIE502", "EIE509"]]
+  ],
+}
