@@ -35,7 +35,7 @@ canvas = canvas.append("svg")
 
 var carreras = {
 	
-	'ELI': 'Eléctrica',
+	'ELI': ' Ing. Civil Eléctrica',
     
 }
 
