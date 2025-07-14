@@ -7,7 +7,7 @@
     ["Antropología cristiana", "EIR010", 2, "FOFU"]
   ],
   "s2": [
-    ["Desarrollo integral y comunicación para ingeniería", "FIN100", 3, "FIN"]
+    ["Desarrollo integral y comunicación para ingeniería", "FIN100", 3, "FIN"],
     ["Física para ingenierìa", "FIS1002", 5, "FIS", ["MAT1001"]],
     ["Cálculo diferencial e integral", "MAT1002", 6, "MAT", ["MAT1001"]],
     ["Álgebra lineal", "MAT1004", 4, "MAT", ["MAT1001"]],
@@ -17,7 +17,7 @@
     ["Ecuaciones diferenciales", "MAT1005", 4, "MAT", ["MAT1004"]],
     ["Cálculos en varias variables", "MAT1003", 4, "MAT", ["MAT1002"]],
     ["Estadística y probabilidades para ingeniería", "EIE211", 3, "MAT", ["MAT1002"]],
-    ["Métodos de optimización", "EIE313", 4, "EIE", ["EIE10000"]],
+    ["Métodos de optimización", "EIE313", 4, "EIE", ["EIE100"]],
     ["Inglés 1", "ING9001", 2, "ING"],
     ["Ética cristiana", "EIR020", 2, "FOFU"]
   ],
@@ -38,7 +38,7 @@
     ["Formación fundamental 3", "FOFU3", 2, "FOFU"]
   ],
   "s6": [
-    ["Gestión de Proyectos Electrícos y Electrónicos", "EIE622", 3, "EIE", ["EIE400"]],
+    ["Gestión de Proyectos Eléctricos y Electrónicos", "EIE622", 3, "EIE", ["EIE400"]],
     ["Automatización industrial", "EIE317", 4, "EIE", ["EIE315"]],
     ["Conversión electromecánica de la energía", "EIE346", 4, "EIE", ["EIE267", "EIE326"]],
     ["Electrónica de potencia", "EIE430", 4, "EIE", ["EIE374"]],
@@ -57,5 +57,5 @@
     ["Protecciones de sistemas eléctricos", "EIE504", 4, "EIE", ["EIE450"]],
     ["Proyectos de Media y Baja tensión", "EIE617", 4, "EIE", ["EIE622"]],
     ["Proyecto de titulación", "EIE621", 8, "EIE", ["EIE615", "EIE450", "EIE432", "EIE502", "EIE509"]]
-  ],
+  ]
 }
