@@ -9,7 +9,7 @@
   "s2": [
     ["Física mecánica", "FIS1001", 5, "FIS", ["MAT1001"]],
     ["Cálculo diferencial e integral", "MAT1002", 6, "MAT", ["MAT1001"]],
-    ["Álgebra lineal", "MAT1004", 4, "FI", ["MAT1001"]],
+    ["Álgebra lineal", "MAT1004", 4, "MAT", ["MAT1001"]],
     ["Fundamentos de química", "QUI1140", 4, "ICM"]
   ],
   "s3": [
