@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Malla Interactiva Ingeniería Civil Eléctrica PUCV | Plan de Estudios</title>
-    <meta name="description" content="Explora la malla curricular interactiva de Ingeniería Civil Eléctrica PUCV. Selecciona ramos aprobados y descubre qué asignaturas puedes inscribir según sus prerrequisitos. Ideal para estudiantes de la PUCV.">
-    <meta property="og:title" content="Malla Interactiva Ingeniería Civil Eléctrica PUCV" />
-    <meta property="og:url" content="https://tessitoo.github.io/Ing-civil-electrica-pucv/" />
-    <meta property="og:image" content="https://tessitoo.github.io/Ing-civil-electrica-pucv/og-image.png" />
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Interactiva Ingeniería Civil Eléctrica PUCV | Plan de Estudios</title>
 
-  
-     <link rel="icon" type="image/png" href="favicon.png">
+  <!-- SEO -->
+  <meta name="description" content="Explora la malla curricular interactiva de Ingeniería Civil Eléctrica PUCV. Marca ramos aprobados y descubre qué asignaturas puedes tomar según sus prerrequisitos. Herramienta interactiva ideal para estudiantes de la PUCV.">
+  <meta name="keywords" content="Malla interactiva, Ingeniería Civil Eléctrica, PUCV, prerrequisitos, plan de estudios, ramos, Pontificia Universidad Católica de Valparaíso">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tessitoo.github.io/Ing-civil-electrica-pucv/">
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Malla Interactiva Ingeniería Civil Eléctrica PUCV" />
+  <meta property="og:description" content="Consulta la malla curricular interactiva de Ingeniería Civil Eléctrica en la PUCV y revisa los ramos que puedes cursar según sus prerrequisitos." />
+  <meta property="og:url" content="https://tessitoo.github.io/Ing-civil-electrica-pucv/" />
+  <meta property="og:image" content="https://tessitoo.github.io/Ing-civil-electrica-pucv/og-image.png" />
+  <meta property="og:type" content="website" />
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Datos estructurados para Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Malla Interactiva Ingeniería Civil Eléctrica PUCV",
+    "description": "Herramienta interactiva para explorar la malla curricular de Ingeniería Civil Eléctrica PUCV. Selecciona ramos aprobados y descubre qué asignaturas puedes cursar según prerrequisitos.",
+    "url": "https://tessitoo.github.io/Ing-civil-electrica-pucv/",
+    "author": {
+      "@type": "Person",
+      "name": "María Teresa Zúñiga"
+    }
+  }
+  </script>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Estilos y librerías -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Google Analytics -->
   <script>
@@ -24,67 +48,65 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-108274078-1', 'auto');
     ga('send', 'pageview');
-
   </script>
-  </head>
+
   <style>
-		body {
-			display: inline;
-			text-align: center;
-			justify-content:center;
-		}
-		html {
-			font-family: sans-serif;
-		}
-
-		.info {
-			font-size: 30px;
-		}
-
+    body {
+      display: inline;
+      text-align: center;
+      justify-content: center;
+    }
+    html {
+      font-family: sans-serif;
+    }
+    .info {
+      font-size: 30px;
+    }
   </style>  
+</head>
 
-  <body>
+<body>
 
-<nav class="navbar navbar-default"style='display:flex;justify-content:center'>
-  <div class="container-fluid" >
+<nav class="navbar navbar-default" style='display:flex;justify-content:center'>
+  <div class="container-fluid">
     <ul class="nav navbar-nav">
-      
       <li><a href="?m=ELI">Ing. Civil Eléctrica</a></li>
       <li><a href="?m=ELI4">Ing. Eléctrica</a></li>
-      
     </ul>
   </div>
 </nav>
-	  <h1>Malla Interactiva <span id="carrera"></span></h1>
-	  <p style="max-width: 800px; margin: 0 auto; padding: 10px; font-size: 16px;">
-  Bienvenida/o a la <strong>malla curricular interactiva de Ingenierías de la PUCV</strong>. Aquí puedes seleccionar los ramos que ya aprobaste y descubrir automáticamente qué asignaturas puedes tomar el siguiente semestre según los prerrequisitos. 
+
+<h1>Malla Interactiva de Ingeniería Civil Eléctrica - PUCV</h1>
+<p style="max-width: 800px; margin: 0 auto; padding: 10px; font-size: 16px;">
+  Bienvenida/o a la <strong>malla curricular interactiva de Ingeniería Civil Eléctrica de la Pontificia Universidad Católica de Valparaíso</strong>.  
+  Marca los ramos que ya aprobaste y descubre automáticamente qué asignaturas puedes tomar el siguiente semestre según los prerrequisitos.
 </p>
 
-		<div class='canvas'></div>		
-		<div class='color-description' style="position:relative;display:flex;justify-content:center;flex-wrap:wrap;"></div>
-		<div class="info">
-      Créditos aprobados: <span id='creditos'></span> <br>    
-      <button type="button" onclick="limpiarRamos()" class="btn btn-info">Limpiar ramos aprobados</button>
+<div class='canvas'></div>		
+<div class='color-description' style="position:relative;display:flex;justify-content:center;flex-wrap:wrap;"></div>
 
-		</div>
+<div class="info">
+  Créditos aprobados: <span id='creditos'></span> <br>    
+  <button type="button" onclick="limpiarRamos()" class="btn btn-info">Limpiar ramos aprobados</button>
+</div>
 
-		<p><img src="data/ramo.svg" style="width:300px;"></p>
+<p><img src="data/ramo.svg" style="width:300px;"></p>
 
-		<p>Hecho con el código base de Sebastián Aedo y editado por María Teresa Zúñiga. <a href="http://github.com/etra0/ramos">Código fuente</a></p>
-        <p><button onclick="assureMail()">Contactar</button></p>
-		<script src='d3.js'></script>
-		<script src='ramos.js'></script>
-		<script src='canvas.js'></script>
-      <script>
-          function assureMail() {
-              if (confirm(`Si existe algún error o quieres agregar la malla de tu carrera por favor contáctame.`)) {
-                  window.location = "mailto:maria.zuniga.g@mail.pucv.cl"
-              }
-          }
-      </script>
-  </body>
+<p>Hecho con el código base de Sebastián Aedo y editado por María Teresa Zúñiga. <a href="http://github.com/etra0/ramos">Código fuente</a></p>
+<p><button onclick="assureMail()">Contactar</button></p>
+
+<script src='d3.js'></script>
+<script src='ramos.js'></script>
+<script src='canvas.js'></script>
+<script>
+  function assureMail() {
+    if (confirm(`Si existe algún error o quieres agregar la malla de tu carrera por favor contáctame.`)) {
+      window.location = "mailto:maria.zuniga.g@mail.pucv.cl"
+    }
+  }
+</script>
+
+</body>
 </html>
-
