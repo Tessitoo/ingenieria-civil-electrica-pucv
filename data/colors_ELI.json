@@ -5,6 +5,6 @@
 	"FOFU": ["#FF4E7A", "FOFUS"],
 	"ING": ["#FF6F91", "Inglés"],
 	"ICM": ["#FF9AA2", "ICM y DER"],
-	"EIE": ["E94560", "Eléctrica"],
+	"EIE": ["#E94560", "Eléctrica"],
 	"EII": ["#FFC1CC", "Industrial"]
 }
