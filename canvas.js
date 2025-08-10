@@ -37,7 +37,7 @@ var carreras = {
 	
 	'ELI': ' Ing. Civil Eléctrica PUCV',
 	'ELI4': 'Ing. Eléctrica PUCV',
-	'ELO'; 'Ing. Civil Electrónica PUCV'
+	'ELO': 'Ing. Civil Electrónica PUCV'
     
 }
 
