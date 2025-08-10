@@ -189,6 +189,43 @@ function Ramo(nombre, sigla, creditos, sector, prer=[], id, colorBySector) {
 	this.isApproved = function() {
 		return approved;
 	}
+// Supongo que tienes data_ELI cargado con la malla por semestre
+// y all_ramos es un objeto con claves las siglas y valores instancias Ramo
+
+function aprobarSemestre(semestre) {
+  if (!data_ELI[semestre]) {
+    console.warn("Semestre no encontrado:", semestre);
+    return;
+  }
+  // Limpiar todos los aprobados actuales
+  limpiarRamos();
+
+  // Marcar como aprobados los ramos del semestre
+  data_ELI[semestre].forEach(ramoData => {
+    const sigla = ramoData[1];
+    const ramo = all_ramos[sigla];
+    if (ramo && !ramo.isApproved()) {
+      ramo.approveRamo();
+    }
+  });
+
+  actualizarCreditos();
+}
+
+function configurarBotonesSemestre() {
+  const botones = document.querySelectorAll('.btn-semester');
+  botones.forEach(boton => {
+    boton.addEventListener('click', () => {
+      const sem = boton.getAttribute('data-semester');
+      aprobarSemestre(sem);
+    });
+  });
+}
+
+// Ejecutar cuando todo esté cargado
+window.addEventListener('load', () => {
+  configurarBotonesSemestre();
+});
 
 
 }
