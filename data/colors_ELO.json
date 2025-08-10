@@ -4,5 +4,7 @@
 	"FIN": ["#B0B91D", "Humanistas"],
 	"FOFU": ["#C54B73", "FOFUS"],
 	"ING": ["#991B1E", "Inglés"],
-	"EIE": ["#FDDE15", "Eléctronica"]
+	"ICM": ["#6BA8D1", "ICM y DER"],
+	"EIE": ["#FDDE15", "Eléctrica"],
+	"EII": ["#AA88DD", "Industrial"]
 }
