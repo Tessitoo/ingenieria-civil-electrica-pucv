@@ -102,6 +102,27 @@
 <script src='ramos.js'></script>
 <script src='canvas.js'></script>
 <script>
+  <script>
+  // Función para obtener parámetros de la URL
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  // Cambiar título y encabezado según malla
+  window.addEventListener('DOMContentLoaded', () => {
+    const malla = getQueryParam('m');
+    const titulo = document.querySelector('h1');
+    if (malla === 'ELI') {
+      document.title = "Malla Interactiva de Ingeniería Civil Eléctrica - PUCV";
+      if (titulo) titulo.textContent = "Malla Interactiva de Ingeniería Civil Eléctrica - PUCV";
+    } else if (malla === 'ELI4') {
+      document.title = "Malla Interactiva de Ingeniería Eléctrica - PUCV";
+      if (titulo) titulo.textContent = "Malla Interactiva de Ingeniería Eléctrica - PUCV";
+    }
+  });
+</script>
+
   function assureMail() {
     if (confirm(`Si existe algún error o quieres agregar la malla de tu carrera por favor contáctame.`)) {
       window.location = "mailto:maria.zuniga.g@mail.pucv.cl"
