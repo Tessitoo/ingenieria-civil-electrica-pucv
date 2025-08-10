@@ -102,9 +102,7 @@
 <script src='ramos.js'></script>
 <script src='canvas.js'></script>
 <script>
-  <script>
-  // Función para obtener parámetros de la URL
-  function getQueryParam(param) {
+ function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
   }
@@ -121,7 +119,6 @@
       if (titulo) titulo.textContent = "Malla Interactiva de Ingeniería Eléctrica - PUCV";
     }
   });
-</script>
 
   function assureMail() {
     if (confirm(`Si existe algún error o quieres agregar la malla de tu carrera por favor contáctame.`)) {
