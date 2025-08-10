@@ -48,7 +48,7 @@
     ["Laboratorio de control", "EIE341", 4, "EIE", ["EIE315"]],
     ["Circuitos electrónicos 2", "EIE376", 4, "EIE", ["EIE374"]],
     ["Electrónica de potencia", "EIE430", 4, "EIE", ["EIE374"]],
-    ["Programación 2", "EIE434", 4, "EIE", ["EIE439]],
+    ["Programación 2", "EIE434", 4, "EIE", ["EIE439"]],
     ["Inglés 3", "ING9003", 2, "ING", ["ING9002"]],
     ["Formación fundamental 3", "FOFU3", 2, "FOFU"] 
   ],
