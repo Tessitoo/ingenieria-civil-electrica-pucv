@@ -1,10 +1,10 @@
 {
 	"MAT": ["#bd99de", "Matemáticas"],
-	"FIS": ["#B71C1C", "Físicas"],
+	"FIS": ["#bb70e0", "Físicas"],
 	"FIN": ["#D7263D", "Humanistas"],
 	"FOFU": ["#FF4E7A", "FOFUS"],
 	"ING": ["#FF6F91", "Inglés"],
 	"ICM": ["#FF9AA2", "ICM y DER"],
-	"EIE": ["#5d4673", "Eléctrica"],
+	"EIE": ["#8f7aa3", "Eléctrica"],
 	"EII": ["#FFC1CC", "Industrial"]
 }
