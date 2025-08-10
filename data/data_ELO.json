@@ -1,0 +1,80 @@
+{
+  "s1": [
+    ["Introducción a la ingeniería eléctrica y electrónica", "EIE142", 3, "EIE"],
+    ["Desarrollo integral y comunicación para ingeniería", "FIN100", 3, "FIN"],
+    ["Introducción a la Física", "FIS1121", 5, "FIS"],
+    ["Fundamentos de matemáticas para ingeniería", "MAT1001", 6, "MAT"],
+    ["Antropología cristiana", "EIR010", 2, "FOFU"]
+  ],
+  "s2": [
+    ["Física mecánica", "FIS1001", 5, "FIS", ["MAT1001"]],
+    ["Cálculo diferencial e integral", "MAT1002", 6, "MAT", ["MAT1001"]],
+    ["Álgebra lineal", "MAT1004", 4, "MAT", ["MAT1001"]],
+    ["Fundamentos de química", "QUI1140", 4, "ICM"]
+  ],
+  "s3": [
+    ["Programación", "EIE100", 4, "EIE"],
+    ["Estadística y probabilidades para ingeniería", "EIE211", 3, "MAT", ["MAT1002"]],
+    ["Física general: ondas y termodinámica", "FIS1141", 3, "FIS", ["FIS1001"]],
+    ["Cálculos en varias variables", "MAT1003", 4, "MAT", ["MAT1002"]],
+    ["Ecuaciones diferenciales", "MAT1005", 4, "MAT", ["MAT1004"]],
+    ["Formación fundamental 1", "FOFU1", 2, "FOFU"]
+  ],
+  "s4": [
+    ["Programación numérica", "EIE200", 3, "EIE", ["EIE100"]],
+    ["Electromagnetismo", "EIE267", 4, "EIE", ["MAT1003"]],
+    ["Laboratorio de mediciones", "EIE274", 3, "EIE", ["MAT1005"]],
+    ["Señales y sistemas", "EIE275", 4, "EIE", ["MAT1003"]],
+    ["Teoría de circuitos 1", "EIE280", 4, "EIE", ["MAT1005"]]
+    
+  ],
+  "s5": [
+    ["Análisis y procesamiento de señales", "EIE310", 4, "EIE", ["EIE275"]],
+    ["Teoría de circuitos 2", "EIE326", 4, "EIE", ["EIE274", "EIE280"]],
+    ["Sistemas digitales", "EIE348", 4, "EIE", ["MAT1004"]],
+    ["Modelado y simulación de sistemas diámicos", "EIE375", 4, "EIE", ["EIE275"]],
+    ["Inglés 1", "ING9001", 2, "ING"],
+    ["Formación fundamental 2", "FOFU2", 2, "FOFU"]
+  ],
+  "s6": [
+    ["Control automático", "EIE315", 4, "EIE", ["EIE275"]],
+    ["Fundamentos de máquinas eléctricas", "EIE316", 4, "EIE", ["EIE267"]],
+    ["Circuitos electrónicos", "EIE374", 4, "EIE", ["EIE280"]],
+    ["Estructura de computadores", "EIE439", 4, "EIE", ["EIE348"]],
+    ["Inglés 2", "ING9002", 2, "ING", ["ING9001"]],
+    ["Ética cristiana", "EIR020", 2, "FOFU"]
+  ],
+  "s7": [
+    ["Laboratorio de control", "EIE341", 4, "EIE", ["EIE315"]],
+    ["Circuitos electrónicos 2", "EIE376", 4, "EIE", ["EIE374"]],
+    ["Electrónica de potencia", "EIE430", 4, "EIE", ["EIE374"]],
+    ["Programación 2", "EIE434", 4, "EIE", ["EIE439]],
+    ["Inglés 3", "ING9003", 2, "ING", ["ING9002"]],
+    ["Formación fundamental 3", "FOFU3", 2, "FOFU"] 
+  ],
+  "s8": [
+    ["Automatización industrial", "EIE317", 4, "EIE", ["EIE315"]],
+    ["Telecomunicaciones y protocolos", "EIE420", 4, "EIE", ["EIE310"]],
+    ["Laboratorio de sistemas electrónicos", "EIE437", 4, "EIE", ["EIE376"]],
+    ["Aplicaciones de conversión electrónica", "EIE438", 4, "EIE", ["EIE430"]],
+    ["Innovación y emprendimiento", "EIE453", 2, "EIE", ["EIE275", "EIE274", "EIE267", "EIE280", "EIE200"]],
+    ["Inglés 4", "ING9004", 2, "ING", ["ING9003"]]
+  ],
+  "s9": [
+    ["Ingeniería económica y formulación de proyectos", "EIE400", 4, "EIE", ["EIE275", "EIE274", "EIE267", "EIE280", "EIE211"]],
+    ["Redes de computadores", "EIE303", 4, "EIE", ["EIE439"]],
+    ["Gestión y administración", "EII509", 4, "EII", ["EIE315", "EIE439", "EIE374", "EIE316", "ING9002"]],
+    ["Optativo", "OPT1", 4, "EIE"],
+    ["Optativo", "OPT1", 4, "EIE"]
+    
+  ],
+  "s10": [
+    ["Legislación, normativa social, laboral y ambiental", "DER1170", 4, "ICM", ["EIE315", "EIE439", "EIE374", "EIE316", "ING9002"]],
+    ["Seminario de proyectos", "EIE620", 8, "EIE", ["EIE317", "EIE420", "EIE437", "EIE38", "ING9004", "EIE453"]],
+    ["Optativo", "OPT3", 4, "EIE"],
+    ["Optativo", "OPT4", 4, "EIE"]
+  ],
+  "s11": [
+    ["Proyecto de titulación", "EIE626", 16, "EIE", ["EIE620"]]
+  ]
+}
