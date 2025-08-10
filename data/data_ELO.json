@@ -65,12 +65,12 @@
     ["Redes de computadores", "EIE303", 4, "EIE", ["EIE439"]],
     ["Gestión y administración", "EII509", 4, "EII", ["EIE315", "EIE439", "EIE374", "EIE316", "ING9002"]],
     ["Optativo", "OPT1", 4, "EIE"],
-    ["Optativo", "OPT1", 4, "EIE"]
+    ["Optativo", "OPT2", 4, "EIE"]
     
   ],
   "s10": [
     ["Legislación, normativa social, laboral y ambiental", "DER1170", 4, "ICM", ["EIE315", "EIE439", "EIE374", "EIE316", "ING9002"]],
-    ["Seminario de proyectos", "EIE620", 8, "EIE", ["EIE317", "EIE420", "EIE437", "EIE38", "ING9004", "EIE453"]],
+    ["Seminario de proyectos", "EIE620", 8, "EIE", ["EIE317", "EIE420", "EIE437", "EIE438", "ING9004", "EIE453"]],
     ["Optativo", "OPT3", 4, "EIE"],
     ["Optativo", "OPT4", 4, "EIE"]
   ],
