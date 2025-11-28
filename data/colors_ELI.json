@@ -1,10 +1,10 @@
 {
-	"MAT": ["#bd99de", "Matemáticas"],
-	"FIS": ["#bb70e0", "Físicas"],
-	"FIN": ["#D7263D", "Humanistas"],
-	"FOFU": ["#FF4E7A", "FOFUS"],
-	"ING": ["#FF6F91", "Inglés"],
-	"ICM": ["#FF9AA2", "ICM y DER"],
-	"EIE": ["#8f7aa3", "Eléctrica"],
-	"EII": ["#FFC1CC", "Industrial"]
+	"MAT": ["#00838F", "Matemáticas"],
+	"FIS": ["#2E58A7", "Físicas"],
+	"FIN": ["#B0B91D", "Humanistas"],
+	"FOFU": ["#C54B73", "FOFUS"],
+	"ING": ["#991B1E", "Inglés"],
+	"ICM": ["#6BA8D1", "ICM y DER"],
+	"EIE": ["#FDDE15", "Eléctrica"],
+	"EII": ["#AA88DD", "Industrial"]
 }
