@@ -53,20 +53,65 @@
     ga('send', 'pageview');
   </script>
 
-  <style>
-    body {
-      display: inline;
-      text-align: center;
-      justify-content: center;
-    }
-    html {
-      font-family: sans-serif;
-    }
-    .info {
-      font-size: 30px;
-    }
+<style>
+  body {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+  }
+  html {
+    font-family: sans-serif;
+  }
+  .info {
+    font-size: 30px;
+  }
+
+  /* Fondo y texto general en modo oscuro */
+  body.dark {
+    background-color: #121212;
+    color: #e6e6e6;
+  }
+
+  body.dark .info,
+  body.dark .color-description {
+    color: white;
+  }
+
+  /* Navbar (barra gris de las carreras) en modo oscuro */
+  body.dark .navbar-default {
+    background-color: #1f1f1f;
+    border-color: #333;
+  }
+
+  body.dark .navbar-default .navbar-nav > li > a {
+    color: #f5f5f5;
+  }
+
+  body.dark .navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+    background-color: #333;
+  }
+  /* Botones Bootstrap por defecto en modo oscuro */
+  body.dark .btn-default {
+    background-color: #444;
+    color: #f5f5f5;
+    border-color: #888;
+  }
+
+  body.dark .btn-default:hover,
+  body.dark .btn-default:focus {
+    background-color: #555;
+    color: #ffffff;
+    border-color: #aaa;
+  }
+
+</style>
+
+
   </style>  
 </head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
 <body>
 
@@ -85,9 +130,21 @@
   Bienvenida/o a la <strong>malla curricular interactiva de Ingenierías de la Pontificia Universidad Católica de Valparaíso</strong>.  
   Marca los ramos que ya aprobaste y descubre automáticamente qué asignaturas puedes tomar el siguiente semestre según los prerrequisitos.
 </p>
+<div style="text-align:right; margin:10px;">
+  <label>
+    <input type="checkbox" id="darkModeToggle">
+    Modo oscuro
+  </label>
+</div>
 
-<div class='canvas'></div>		
+<div class='canvas'></div>	
+
 <div class='color-description' style="position:relative;display:flex;justify-content:center;flex-wrap:wrap;"></div>
+<div style="text-align:center; margin-top:10px;">
+  <button id="resetColors" class="btn btn-default">
+    Restablecer colores por defecto
+  </button>
+</div>
 
 <div class="info">
   Créditos aprobados: <span id='creditos'></span> <br>    
@@ -97,7 +154,7 @@
 <p><img src="data/ramo.svg" style="width:300px;"></p>
 
 <p>Hecho con el código base de Sebastián Aedo y editado por María Teresa Zúñiga. <a href="http://github.com/etra0/ramos">Código fuente</a></p>
-<p><button onclick="assureMail()">Contactar</button></p>
+<p><button class="btn btn-default" onclick="assureMail()">Contactar</button></p>
 
 <script src='d3.js'></script>
 <script src='ramos.js'></script>
